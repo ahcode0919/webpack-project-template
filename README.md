@@ -178,7 +178,7 @@ module.exports = {
 ## Running
 
 - Build Code - `npm run build`
-- Run Development Server - `npm run start`
+- Run Development Server - `npm run start`, navigate to: [http://localhost:8080](http://localhost:8080)
 - Lint Project - `npm run lint`
 - Prettify Code - `npm run prettier`
 
