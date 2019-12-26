@@ -4,9 +4,11 @@ Basic NPM project template
 
 ## Pre-setup
 
-- Install NVM - `https://github.com/nvm-sh/nvm#installation-and-update`
-  - Or with Homebrew: `https://formulae.brew.sh/formula/nvm`
+- Install NVM - [https://github.com/nvm-sh/nvm#installation-and-update](https://github.com/nvm-sh/nvm#installation-and-update)
+  - Or with Homebrew: [https://formulae.brew.sh/formula/nvm](https://formulae.brew.sh/formula/nvm)
 - Install Node via NVM - `nvm install node`
+- May need to restart your terminal session.
+- `nvm current` should print valid node version
 
 ## Configuration Steps
 
@@ -187,6 +189,7 @@ module.exports = {
 - [ESlint](https://eslint.org)
 - [Husky](https://github.com/typicode/husky)
 - [Jest](https://jestjs.io)
+- [Node .gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore)
 - [NPM](https://www.npmjs.com)
 - [Prettier](https://prettier.io)
 - [Pretty-Quick](https://github.com/azz/pretty-quick)
