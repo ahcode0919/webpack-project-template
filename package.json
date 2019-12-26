@@ -1,0 +1,39 @@
+{
+  "name": "npm-project-template",
+  "version": "0.0.1",
+  "description": "Template NPM Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "lint": "npx eslint \"./**/*.js\"",
+    "prettier": "npx prettier --write \"./**/*.js\"",
+    "start": "npm run build && webpack-dev-server",
+    "test": "jest --passWithNoTests"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run lint && pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahcode0919/npm-project-template.git"
+  },
+  "author": "A. Hinton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahcode0919/npm-project-template/issues"
+  },
+  "homepage": "https://github.com/ahcode0919/npm-project-template#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {}
+}
