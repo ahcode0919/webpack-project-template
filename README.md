@@ -1,6 +1,6 @@
-# NPM Project Template
+# Webpack Project Template
 
-Basic NPM project template
+Basic Webpack project template
 
 ## Pre-setup
 
